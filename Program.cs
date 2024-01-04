@@ -16,7 +16,7 @@ namespace AlgorithmsLearning
             PrintArray(array);
             //Active Sorting Algorithm:
             
-            QuickSort.Driver(array, 0, array.Length-1);
+            CountSort.Driver(array);
             //Print Sorted Array:
             Console.WriteLine("Sorted Array:");
             PrintArray(array);
